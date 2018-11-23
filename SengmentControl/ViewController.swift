@@ -9,12 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var seg: UISegmentedControl!
+    
+    @IBOutlet weak var lbl: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func segPressed(_ sender: Any) {
+    }
+    
 }
 
