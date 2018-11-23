@@ -17,6 +17,17 @@ class ViewController: UIViewController {
     }
 
     @IBAction func segPressed(_ sender: Any) {
+        
+        
+        if seg.selectedSegmentIndex == 0{
+            lbl.text = "first Segment is selected"
+        }
+        else if seg.selectedSegmentIndex == 1{
+            lbl.text = "Second segment is selected"
+        }
+        else if seg.selectedSegmentIndex == 2{
+            lbl.text = "Third segment is selected"
+        }
     }
     
 }
